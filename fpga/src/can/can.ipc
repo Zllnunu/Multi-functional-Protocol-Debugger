@@ -1,0 +1,14 @@
+[General]
+ipc_version=4
+file=can
+module=CAN_Top
+target_device=gw5at138b-012
+type=CAN
+version=1.0
+
+[Config]
+BUFFER_DEPTH=256
+DISABLE_IO_INSERTION=true
+INTERFACE=REG
+LANG=0
+Synthesis_tool=GowinSynthesis
